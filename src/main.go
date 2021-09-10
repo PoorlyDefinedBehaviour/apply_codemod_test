@@ -9,7 +9,10 @@ import (
 var errBadStuff = errors.New("something happened")
 
 func DoSomething() error {
-	return errors.Wrapf(errBadStuff, "some context")
+	return fmt.Errorf("some context: %w",
+
+		"some context: %w")
+
 }
 
 func main() {
