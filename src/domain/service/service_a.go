@@ -5,5 +5,5 @@ import "github.com/pkg/errors"
 var AError = errors.New("a")
 
 func DoSomethingA() error {
-	return errors.Wrapf(AError, "some context")
+	return fmt.Errorf("some context: %w", AError)
 }
