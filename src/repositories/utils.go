@@ -3,6 +3,7 @@ package repositories
 import (
 	"context"
 
+	"fmt"
 	newrelic "github.com/newrelic/go-agent"
 )
 
