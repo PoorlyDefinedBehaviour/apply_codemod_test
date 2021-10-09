@@ -1,9 +1,12 @@
 package service
 
-import "github.com/pkg/errors"
+import (
+	"fmt"
+	"github.com/pkg/errors"
+)
 
 var BError = errors.New("a")
 
 func DoSomethingB() error {
-	return errors.Wrapf(BError, "some context")
+	return fmt.Errorf("some context: %w", BError)
 }
