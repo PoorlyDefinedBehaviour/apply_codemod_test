@@ -1,6 +1,9 @@
 package sqs
 
-import "github.com/pkg/errors"
+import (
+	"fmt"
+	"github.com/pkg/errors"
+)
 
 type EnqueueOptions struct {
 }
@@ -8,5 +11,5 @@ type EnqueueOptions struct {
 var ErrEnqueueError = errors.New("oops")
 
 func Enqueue(_ EnqueueOptions) error {
-	return errors.Wrapf(ErrEnqueueError, "dont know")
+	return fmt.Errorf("dont know: %w", ErrEnqueueError)
 }
