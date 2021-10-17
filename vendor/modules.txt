@@ -1,0 +1,12 @@
+# github.com/newrelic/go-agent v3.15.0+incompatible
+## explicit
+github.com/newrelic/go-agent
+github.com/newrelic/go-agent/internal
+github.com/newrelic/go-agent/internal/cat
+github.com/newrelic/go-agent/internal/jsonx
+github.com/newrelic/go-agent/internal/logger
+github.com/newrelic/go-agent/internal/sysinfo
+github.com/newrelic/go-agent/internal/utilization
+# github.com/pkg/errors v0.9.1
+## explicit
+github.com/pkg/errors
