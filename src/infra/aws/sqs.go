@@ -1,6 +1,6 @@
 package sqs
 
-import "github.com/pkg/errors"
+import "apply_codemod_test/src/infra/errors"
 
 type EnqueueOptions struct {
 }

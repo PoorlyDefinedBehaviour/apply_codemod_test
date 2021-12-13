@@ -1,9 +1,8 @@
 package main
 
 import (
+	"apply_codemod_test/src/infra/errors"
 	"fmt"
-
-	"github.com/pkg/errors"
 )
 
 var errBadStuff = errors.New("something happened")
