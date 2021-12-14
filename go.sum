@@ -1,3 +1,5 @@
+github.com/IQ-tech/go-errors v0.1.1 h1:06GN1iWahsonzFgYZrdWL7+4gxG+SFJup2RWIP3d4mk=
+github.com/IQ-tech/go-errors v0.1.1/go.mod h1:qgv1mXc6/4Tq7Zln30l/BrZjvTpzBNB40nPh55xr4V4=
 github.com/newrelic/go-agent v3.15.0+incompatible h1:BQ5+6vIgNtnv8jFET8CMjY7u7o+pN1wmGKIvN1uDIY4=
 github.com/newrelic/go-agent v3.15.0+incompatible/go.mod h1:a8Fv1b/fYhFSReoTU6HDkTYIMZeSVNffmoS726Y0LzQ=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
