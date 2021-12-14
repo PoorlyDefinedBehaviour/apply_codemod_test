@@ -1,6 +1,6 @@
 package sqs
 
-import "apply_codemod_test/src/infra/errors"
+import "github.com/IQ-tech/go-errors"
 
 type EnqueueOptions struct {
 }

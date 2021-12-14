@@ -1,8 +1,8 @@
 package main
 
 import (
-	"apply_codemod_test/src/infra/errors"
 	"fmt"
+	"github.com/IQ-tech/go-errors"
 )
 
 var errBadStuff = errors.New("something happened")
