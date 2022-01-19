@@ -4,6 +4,6 @@ import "github.com/pkg/errors"
 
 var BError = errors.New("a")
 
-func DoSomethingB() error {
+func DoSomethingC() error {
 	return errors.Wrapf(BError, "some context")
 }
